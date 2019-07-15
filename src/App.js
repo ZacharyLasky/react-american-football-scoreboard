@@ -33,8 +33,8 @@ function App() {
           <button onClick={ ()=> setValueLions(valueLions +3)} className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
-          <button onClick={ ()=> setValueTigers(valueLions +7)} className="awayButtons__touchdown">Away Touchdown</button>
-          <button onClick={ ()=> setValueTigers(valueLions +3)} className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button onClick={ ()=> setValueTigers(valueTigers +7)} className="awayButtons__touchdown">Away Touchdown</button>
+          <button onClick={ ()=> setValueTigers(valueTigers +3)} className="awayButtons__fieldGoal">Away Field Goal</button>
         </div>
       </section>
     </div>
