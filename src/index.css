@@ -27,14 +27,15 @@ code {
 }
 
 button {
-  display: inline-block;
+  display: flex;
   border: none;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
-  color: #ffffff;
-  font-family: inherit;
+  background: white;
+  border: 2px solid black;
+  color: orange;
+  font-family: Monaco;
   font-size: 1.6rem;
   cursor: pointer;
   text-align: center;
@@ -45,7 +46,7 @@ button {
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background: pink;
 }
 
 button:focus {
@@ -55,4 +56,13 @@ button:focus {
 
 button:active {
   transform: scale(0.99);
+}
+
+section.scoreboard {
+  background: pink;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
